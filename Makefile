@@ -48,7 +48,11 @@ pytest:
 
 ## Run the flake8 code check
 run-flake:
-	$(call execute_in_env, flake8 ./src)
+	$(call execute_in_env, flake8 ./src ./tests)
+
+# Run pep8
+run-format:
+	$(call execute_in_env, autopep8 --in-place --aggressive -v ${file_name})
 ## Run a single test
 unit-test:
 	$(call execute_in_env, PYTHONPATH=${PYTHONPATH} pytest -v ${test_run})
