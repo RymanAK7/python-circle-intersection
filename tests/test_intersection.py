@@ -42,6 +42,6 @@ def test_circle_intersection_returns_zero_for_non_intersecting_circles():
     c2 = Circle(10, 10, 3)
     assert circle_intersections(c1, c2) == 0
 
-    c3 = Circle(0, 0, 6)
+    c3 = Circle(0, 0, 4)
     c4 = Circle(0, 0, 1)
     assert circle_intersections(c3, c4) == 0
