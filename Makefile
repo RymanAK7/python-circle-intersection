@@ -65,4 +65,4 @@ unit-tests:
 run-checks: run-flake unit-tests
 
 ## Make all
-all: create-environment install-dependencies  run-checks
+all: create-environment install-dependencies run-checks
