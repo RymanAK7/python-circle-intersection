@@ -41,7 +41,7 @@ class Circle():
             if not isinstance(property, (float, int)):
                 raise TypeError("x,y and radius must be of type float or int.")
         if radius < 0:
-            raise ValueError("Radius must be on-negative")
+            raise ValueError("Radius must be non-negative")
 
         self._x = x
         self._y = y

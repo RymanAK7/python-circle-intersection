@@ -19,7 +19,7 @@ def test_negative_radius_raises_value_error():
         Circle(1, 2, -3)
 
 
-def test_attempt_to_modify_propery_raises_attribute_error():
+def test_attempt_to_modify_property_raises_attribute_error():
     c1 = Circle(1, 2, 3)
     with pytest.raises(AttributeError):
         c1.x += 1
