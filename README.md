@@ -45,7 +45,7 @@ To visualize circle intersections, you can use the `plotter.py` script provided 
 source venv/bin/activate
 cd src
 ```
-I have added some examples in `plotter.py` which you can see by running
+I have included illustrative examples in `plotter.py` that showcase circle intersections. To visualize these examples, run the following command:
 
 ```bash
 python plotter.py
