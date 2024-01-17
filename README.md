@@ -36,6 +36,20 @@ Create Enviroment, Install requirements and run tests:
 make all
 ```
 
+
+## Running the Plotter
+
+To visualize circle intersections, you can use the `plotter.py` script provided in this repository. Follow these steps:
+
+```bash
+source venv/bin/activate
+cd src
+```
+I have added some examples in `plotter.py` which you can see by running
+
+```bash
+python plotter.py
+```
 ## Tech Stack
 
 **Languages** python 
