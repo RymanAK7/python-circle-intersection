@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from .circle_class import Circle
+from circle_class import Circle
 from typing import Type, List
 import numpy as np
 
@@ -41,3 +41,16 @@ def circle_plotter(circles: List[Type[Circle]]) -> None:
     plt.axis('equal')
     plt.legend()
     plt.show()
+
+
+# circle_plotter([Circle(0, 0, 3), Circle(5, 0, 2)])
+
+# circle_plotter([Circle(0, 0, 5), Circle(0, 2, 3)])
+
+# circle_plotter([Circle(0, 0, 3), Circle(0, 0, 3)])
+
+# circle_plotter([Circle(0, -1, 3), Circle(0, 1, 3)])
+
+# circle_plotter([Circle(0, 0, 3), Circle(10, 10, 3)])
+
+# circle_plotter([Circle(0, 0, 4), Circle(0, 0, 1)])
